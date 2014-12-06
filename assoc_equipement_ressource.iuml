@@ -1,1 +1,1 @@
-Equipement o-- "1" Ressource
+Equipement o-- "0..n" Ressource

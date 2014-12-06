@@ -10,5 +10,5 @@ enum EtatBrasserie {
     RETIRE
 }
 
-Brasserie "0..n" -- "1" EtatBrasserie
+Brasserie -- "1" EtatBrasserie
 ObjetBase <|-- Brasserie
