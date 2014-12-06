@@ -1,0 +1,8 @@
+class Utilisateur {
+    + nom : Chaine
+    + prenom : Chaine
+    + adresseMail : Chaine
+    + telMobile : Chaine
+    + login : Chaine
+    + password : Chaine
+}

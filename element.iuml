@@ -1,5 +1,0 @@
-abstract class Element {
-	+ nom
-	+ description
-	+ dateCreation
-}
