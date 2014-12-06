@@ -1,0 +1,6 @@
+class Nourrice <<Raccordable>> {
+	nbConnexions : EntierCourt
+}
+
+Raccordable <|-- Nourrice
+Ressource <|-- Nourrice

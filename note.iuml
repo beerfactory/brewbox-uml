@@ -1,0 +1,4 @@
+Class Note {
+    + dateCreation : Horodatage
+    + texte : Chaine
+}

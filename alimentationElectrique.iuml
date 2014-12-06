@@ -1,0 +1,7 @@
+class AlimentationElectrique {
+	
+}
+
+Ressource <|-- AlimentationElectrique
+AlimentationElectrique -- "1" TypeAlimentation
+

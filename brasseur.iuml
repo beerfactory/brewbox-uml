@@ -1,0 +1,6 @@
+class Brasseur {
+    + nom : Chaine
+    + prenom : Chaine
+    + adresseMail : Chaine
+    + telMobile : Chaine
+}

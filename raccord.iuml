@@ -1,0 +1,11 @@
+class Raccord {
+    diametreRaccord : DecimalCourt
+    typeRaccord : Chaine
+}
+
+enum GenreRaccord {
+    MALE
+    FEMELLE
+}
+
+Raccord -- "1" GenreRaccord

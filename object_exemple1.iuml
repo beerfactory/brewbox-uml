@@ -1,0 +1,56 @@
+object ":Brasserie" as brasserie {
+    nom = "Ma brasserie"
+    description = "Pico-brasserie"
+    dateCreation = "21/11/2014 21:03"
+    dateModif = null
+    etat = EtatBrasserie.PILOTE
+}
+
+object ":Brasseur" as brasseur {
+    nom = "Albert"
+    prenom = "Dupont"
+    adresseMail = "albert@dupont.com"
+}
+
+object ":MaterielComposite" as empatage {
+    nom = "Cuve matière"
+    description = "Cuve INOX 33l"
+    dateCreation = "21/11/2014 21:11"
+    dateInstallation = "20/11/2014 15:30"
+}
+
+object ":Cuve" as cuveMatiere {
+    nom = "Cuve INOX"
+    description = "Cuve INOX 33l"
+    dateCreation = "21/11/2014 21:11"
+    dateInstallation = "20/11/2014 15:30"
+    volumeMax = 33
+    volumeUtile = 25
+    hauteur = 50
+    diametre = 50
+    masseVide = 5
+    matiere = "Inox"
+    
+}
+
+object ":SortieFluide" as sortieCuveMatiere {
+    nom = "sortie matiere"
+    description = "Sortie fond de cuve"
+    dateCreation = "21/11/2014 21:11"
+    dateInstallation = "20/11/2014 15:30"    
+}
+
+object ":Bruleur" as bruleurEmpatage {
+    nom = "Cuve gaz"
+    description = "Cuve INOX 33l"
+    dateCreation = "21/11/2014 21:11"
+    dateInstallation = "20/11/2014 15:30"
+    puissance = 5000
+    diametre = 45
+    type = TypeBruleur.BUTANE
+}
+
+brasseur -- brasserie
+brasserie *- empatage
+empatage o- cuveMatiere
+empatage o- bruleurEmpatage

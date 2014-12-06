@@ -1,0 +1,9 @@
+class Coude <<Raccordable>> {
+    diametreExterne : DecimalCourt
+    diametreInterne : DecimalCourt
+    matiere : Chaine
+    angleCoude : DecimalCourt    
+}
+
+Raccordable <|-- Coude
+Composant <|-- Coude

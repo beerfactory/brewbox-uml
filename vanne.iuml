@@ -1,0 +1,14 @@
+class Vanne  <<Raccordable>> {
+    pctOuverture : EntierCourt
+}
+
+class ElectroVanne <<Actionnable>> {
+    ouvrir(pct)
+    fermer()
+}
+
+Vanne <|-- ElectroVanne
+Raccordable <|-- Vanne
+Composant <|-- Vanne
+Actionnable <|-- ElectroVanne
+

@@ -1,0 +1,7 @@
+class Filtre <<Raccordable>> {
+	
+}
+
+Raccordable <|-- Filtre
+Composant <|-- Filtre
+

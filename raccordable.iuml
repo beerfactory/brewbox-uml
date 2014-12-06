@@ -1,0 +1,6 @@
+abstract class Raccordable <<Raccordable>> {
+	
+}
+
+Raccordable "1"-- "0..n" EntreeFluide
+Raccordable "1"-- "0..n" SortieFluide

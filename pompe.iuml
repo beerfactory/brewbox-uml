@@ -1,0 +1,7 @@
+class Pompe <<Actionnable>> {
+    pomper(pct)
+}
+
+Raccordable <|-- Pompe
+Ressource <|-- Pompe
+Actionnable <|-- Pompe

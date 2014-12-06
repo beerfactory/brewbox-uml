@@ -1,0 +1,11 @@
+class Serpentin <<Raccordable>> {
+    diametreExterne : DecimalCourt
+    diametreInterne : DecimalCourt
+    longueur : EntierCourt
+    matiere : Chaine
+    diametreSerpentin : DecimalCourt
+    pas : DecimalCourt
+}
+
+Raccordable <|-- Serpentin
+Composant <|-- Serpentin

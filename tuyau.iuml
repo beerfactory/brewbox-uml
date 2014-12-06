@@ -1,0 +1,9 @@
+class Tuyau <<Raccordable>> {
+    diametreExterne : DecimalCourt
+    diametreInterne : DecimalCourt
+    longueur : EntierCourt
+    matiere : Chaine
+}
+
+Raccordable <|-- Tuyau
+Composant <|-- Tuyau

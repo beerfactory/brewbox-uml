@@ -1,0 +1,6 @@
+abstract class ObjetBase {
+    + nom : Chaine
+    + description : Chaine
+    + dateCreation : Horodatage
+    + dateModif : Horodatage
+}

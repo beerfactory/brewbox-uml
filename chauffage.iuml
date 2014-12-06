@@ -1,0 +1,28 @@
+class Chauffage <<Actionnable>> {
+    puissance : EntierLong
+}
+
+class Résistance {
+    longueur : EntierCourt
+    densitePuissance : EntierCourt
+    tension : EntierCourt
+}
+
+class Bruleur {
+    diametre : EntierCourt
+}
+
+enum TypeBruleur {
+    GAZ_DE_VILLE
+    PROPANE
+    BUTANE
+}
+
+Composant <|-- Chauffage
+Actionnable <|-- Chauffage
+Actionneur <|-- Résistance
+Actionneur <|-- Bruleur
+Résistance "0..n" -- "1" TypeAlimentation
+Bruleur "0..n" -- "1" TypeBruleur
+
+

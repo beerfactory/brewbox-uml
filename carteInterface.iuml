@@ -1,0 +1,5 @@
+class CarteInterface {
+	version : Chaine	
+}
+
+ObjetBase <|-- CarteInterface

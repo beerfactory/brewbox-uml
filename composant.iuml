@@ -1,0 +1,5 @@
+abstract class Composant {
+    + dateInstallation : Horodatage
+}
+
+ObjetBase <|-- Composant

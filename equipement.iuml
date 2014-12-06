@@ -1,0 +1,14 @@
+class Equipement {
+    + dateInstallation : Horodatage
+}
+
+enum EtatEquipement {
+    PREVU
+    INSTALLE
+    ACTIF
+    INACTIF
+    RETIRE
+}
+
+Equipement -- "1" EtatEquipement
+ObjetBase <|-- Equipement

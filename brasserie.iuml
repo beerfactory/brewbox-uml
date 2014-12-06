@@ -1,0 +1,14 @@
+class Brasserie {
+	
+}
+
+enum EtatBrasserie {
+    PROJET
+    PILOTE
+    AUTONOME
+    INACTIF
+    RETIRE
+}
+
+Brasserie "0..n" -- "1" EtatBrasserie
+ObjetBase <|-- Brasserie

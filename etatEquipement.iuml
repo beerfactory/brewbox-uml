@@ -1,0 +1,7 @@
+enum EtatEquipement {
+	PROJET
+	PILOTE
+	AUTONOME
+	INACTIF
+	RETIRE
+}

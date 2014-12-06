@@ -1,0 +1,8 @@
+class Té <<Raccordable>> {
+    diametreExterne : DecimalCourt
+    diametreInterne : DecimalCourt
+    matiere : Chaine
+}
+
+Raccordable <|-- Té
+Composant <|-- Té

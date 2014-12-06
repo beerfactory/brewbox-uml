@@ -1,0 +1,7 @@
+class RefroidisseurPlaques <<Raccordable>> {
+    puissance : EntierLong
+	nbPlaques : Entier
+}
+
+Raccordable <|-- RefroidisseurPlaques
+Ressource <|-- RefroidisseurPlaques

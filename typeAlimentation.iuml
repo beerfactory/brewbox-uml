@@ -1,0 +1,4 @@
+enum TypeAlimentation {
+    MONOPHASE
+    TRIPHASE
+}

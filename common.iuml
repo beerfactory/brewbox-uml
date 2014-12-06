@@ -1,0 +1,8 @@
+hide <<Actionnable>> stereotype
+hide <<Raccordable>> stereotype
+hide <<Captage>> stereotype
+skinparam class {
+    BackgroundColor<< Actionnable >> PowderBlue
+    BackgroundColor<< Raccordable >> PeachPuff
+    BackgroundColor<< Captage >> PaleGreen
+    }

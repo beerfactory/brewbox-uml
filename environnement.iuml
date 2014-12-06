@@ -1,0 +1,5 @@
+class Environnement {
+	
+}
+
+Ressource <|-- Environnement

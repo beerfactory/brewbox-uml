@@ -1,0 +1,7 @@
+class Isolant {
+    matière : Chaine
+    epaisseur : DecimalCourt
+    resistanceThermique : DecimalCourt
+}
+
+Composant <|- Isolant
