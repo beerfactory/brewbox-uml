@@ -7,5 +7,3 @@ class Cuve {
     masseVide : EntierCourt
     matiere : Chaine
 }
-
-Ressource <|-- Cuve

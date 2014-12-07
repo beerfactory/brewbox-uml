@@ -1,5 +1,3 @@
 class Evacuation {
 	
 }
-
-Ressource <|-- Evacuation
