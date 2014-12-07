@@ -3,6 +3,3 @@ abstract class Ressource  <<Captage>> {
 }
 
 ObjetBase <|-- Ressource
-Ressource <|-- Pompe
-Ressource <|-- RefroidisseurPlaques
-Ressource <|-- Nourrice
