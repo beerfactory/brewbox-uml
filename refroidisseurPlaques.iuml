@@ -3,5 +3,3 @@ class RefroidisseurPlaques <<Raccordable>> {
 	nbPlaques : Entier
 }
 
-Raccordable <|-- RefroidisseurPlaques
-Ressource <|-- RefroidisseurPlaques

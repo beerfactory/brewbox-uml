@@ -3,3 +3,4 @@ abstract class Actionnable <<Actionnable>> {
 }
 
 Actionnable -- "1" Actionneur
+Actionnable <|-- Pompe
