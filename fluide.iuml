@@ -13,5 +13,3 @@ enum TypeFluide {
 
 EntreeFluide -- "1" TypeFluide
 SortieFluide -- "1" TypeFluide
-Captage <|-- EntreeFluide
-Captage <|-- SortieFluide

@@ -1,0 +1,2 @@
+Captage <|-- EntreeFluide
+Captage <|-- SortieFluide
