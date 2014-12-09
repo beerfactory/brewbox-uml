@@ -1,4 +1,4 @@
-class Equipement {
+abstract class Equipement {
     + dateInstallation : Horodatage
 }
 
