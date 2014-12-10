@@ -1,5 +1,0 @@
-abstract class Ressource  <<Captage>> {
-    + dateInstallation : Horodatage
-}
-
-ObjetBase <|-- Ressource
