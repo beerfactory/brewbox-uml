@@ -68,7 +68,7 @@
 !includeurl GIT_URL/assoc/equipement_chambreFermentation.iuml
 !includeurl GIT_URL/assoc/equipement_composant.iuml
 !includeurl GIT_URL/assoc/equipement_cuve.iuml
-!includeurl GIT_URL/assoc/equipement_evacuation.iuml
+!includeurl GIT_URL/assoc/brasserie_evacuation.iuml
 !includeurl GIT_URL/assoc/equipement_nourrice.iuml
 !includeurl GIT_URL/assoc/equipement_pompe.iuml
 !includeurl GIT_URL/assoc/equipement_refroidisseurPlaques.iuml

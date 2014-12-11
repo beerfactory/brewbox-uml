@@ -1,3 +1,5 @@
 class Evacuation {
 	
 }
+
+Raccordable <|-- Evacuation
