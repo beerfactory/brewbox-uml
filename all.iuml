@@ -55,6 +55,7 @@
 !includeurl GIT_URL/assoc/brasserie_environnement.iuml
 !includeurl GIT_URL/assoc/brasserie_equipement.iuml
 !includeurl GIT_URL/assoc/captage_alimentationElectrique.iuml
+!includeurl GIT_URL/assoc/captage_alimentationEau.iuml
 !includeurl GIT_URL/assoc/captage_cuve.iuml
 !includeurl GIT_URL/assoc/captage_emplacementCapteur.iuml
 !includeurl GIT_URL/assoc/captage_environnement.iuml
@@ -65,7 +66,7 @@
 !includeurl GIT_URL/assoc/controleur_peripherique.iuml
 !includeurl GIT_URL/assoc/echantillonneur_serie.iuml
 !includeurl GIT_URL/assoc/emplacementCapteur_capteur.iuml
-!includeurl GIT_URL/assoc/equipement_alimentationEau.iuml
+!includeurl GIT_URL/assoc/brasserie_alimentationEau.iuml
 !includeurl GIT_URL/assoc/equipement_chambreFermentation.iuml
 !includeurl GIT_URL/assoc/equipement_composant.iuml
 !includeurl GIT_URL/assoc/equipement_cuve.iuml

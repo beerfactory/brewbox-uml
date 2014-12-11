@@ -1,3 +1,6 @@
 class AlimentationEau {
 	
 }
+
+ObjetBase <|-- AlimentationElectrique
+
