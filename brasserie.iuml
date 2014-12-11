@@ -1,5 +1,5 @@
 class Brasserie {
-	
+	etat: EtatBrasserie
 }
 
 enum EtatBrasserie {
@@ -10,5 +10,4 @@ enum EtatBrasserie {
     RETIRE
 }
 
-Brasserie -- "1" EtatBrasserie
 ObjetBase <|-- Brasserie
