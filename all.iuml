@@ -5,7 +5,6 @@
 !includeurl GIT_URL/actionneur.iuml
 !includeurl GIT_URL/alimentationEau.iuml
 !includeurl GIT_URL/alimentationElectrique.iuml
-!includeurl GIT_URL/all.iuml
 !includeurl GIT_URL/branchement.iuml
 !includeurl GIT_URL/brasserie.iuml
 !includeurl GIT_URL/brasseur.iuml
