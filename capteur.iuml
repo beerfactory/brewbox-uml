@@ -2,7 +2,7 @@ abstract class Capteur {
 }
 
 class Thermometre {
-    
+    type : TypeThermometre
 }
 
 enum TypeThermometre {
@@ -28,4 +28,3 @@ Capteur <|-- Thermometre
 Capteur <|-- Debitmetre
 Capteur <|-- Niveau
 Capteur <|-- PHmetre
-Thermometre "0..n" -- "1" TypeThermometre

@@ -1,7 +1,5 @@
 class AlimentationElectrique {
-	
+	alimentation : TypeAlimentation
 }
 
 ObjetBase <|-- AlimentationElectrique
-AlimentationElectrique -- "1" TypeAlimentation
-

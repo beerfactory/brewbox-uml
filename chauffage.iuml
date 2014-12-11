@@ -10,6 +10,7 @@ class Résistance {
 
 class Bruleur {
     diametre : EntierCourt
+    type : TypeBruleur
 }
 
 enum TypeBruleur {
@@ -22,6 +23,3 @@ Composant <|-- Chauffage
 Actionnable <|-- Chauffage
 Actionneur <|-- Résistance
 Actionneur <|-- Bruleur
-Bruleur "0..n" -- "1" TypeBruleur
-
-
