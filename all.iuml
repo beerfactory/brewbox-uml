@@ -49,7 +49,7 @@
 !includeurl GIT_URL/utilisateur.iuml
 !includeurl GIT_URL/vanne.iuml
 !includeurl GIT_URL/assoc/actionneur_controleur.iuml
-!includeurl GIT_URL/assoc/branchement_fluide.iuml
+!includeurl GIT_URL/assoc/branchement_raccord.iuml
 !includeurl GIT_URL/assoc/brasserie_alimentationElectrique.iuml
 !includeurl GIT_URL/assoc/brasserie_brasseur.iuml
 !includeurl GIT_URL/assoc/brasserie_environnement.iuml
@@ -71,7 +71,7 @@
 !includeurl GIT_URL/assoc/equipement_composant.iuml
 !includeurl GIT_URL/assoc/equipement_cuve.iuml
 !includeurl GIT_URL/assoc/equipement_evacuation.iuml
-!includeurl GIT_URL/assoc/equipement_fluide.iuml
+!includeurl GIT_URL/assoc/equipement_raccord.iuml
 !includeurl GIT_URL/assoc/equipement_nourrice.iuml
 !includeurl GIT_URL/assoc/equipement_pompe.iuml
 !includeurl GIT_URL/assoc/equipement_refroidisseurPlaques.iuml
@@ -79,7 +79,7 @@
 !includeurl GIT_URL/assoc/note_utilisateur.iuml
 !includeurl GIT_URL/assoc/objetBase_meta.iuml
 !includeurl GIT_URL/assoc/peripherique_echantillonneur.iuml
-!includeurl GIT_URL/assoc/raccord_fluide.iuml
+!includeurl GIT_URL/assoc/raccordable_raccord.iuml
 !includeurl GIT_URL/assoc/raccordable_nourrice.iuml
 !includeurl GIT_URL/assoc/raccordable_pompe.iuml
 !includeurl GIT_URL/assoc/raccordable_refroidisseurPlaques.iuml

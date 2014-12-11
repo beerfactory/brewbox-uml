@@ -1,2 +1,1 @@
-Captage <|-- EntreeFluide
-Captage <|-- SortieFluide
+Captage <|-- Raccord

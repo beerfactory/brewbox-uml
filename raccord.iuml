@@ -8,4 +8,11 @@ enum GenreRaccord {
     FEMELLE
 }
 
+enum SensFluide {
+	ENTREE
+	SORTIE
+}
+
+ObjetBase <|-- Raccord
 Raccord -- "1" GenreRaccord
+Raccord -- "1" SensFluide
