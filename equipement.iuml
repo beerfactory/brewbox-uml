@@ -1,5 +1,6 @@
 abstract class Equipement {
     + dateInstallation : Horodatage
+    + etat : EtatEquipement
 }
 
 enum EtatEquipement {
@@ -10,5 +11,4 @@ enum EtatEquipement {
     RETIRE
 }
 
-Equipement -- "1" EtatEquipement
 ObjetBase <|-- Equipement

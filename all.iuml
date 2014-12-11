@@ -24,7 +24,6 @@
 !includeurl GIT_URL/emplacementCapteur.iuml
 !includeurl GIT_URL/environnement.iuml
 !includeurl GIT_URL/equipement.iuml
-!includeurl GIT_URL/etatEquipement.iuml
 !includeurl GIT_URL/evacuation.iuml
 !includeurl GIT_URL/fauxFond.iuml
 !includeurl GIT_URL/filtre.iuml
