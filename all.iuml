@@ -57,7 +57,7 @@
 !includeurl GIT_URL/assoc/captage_cuve.iuml
 !includeurl GIT_URL/assoc/captage_emplacementCapteur.iuml
 !includeurl GIT_URL/assoc/captage_environnement.iuml
-!includeurl GIT_URL/assoc/captage_fluide.iuml
+!includeurl GIT_URL/assoc/captage_raccord.iuml
 !includeurl GIT_URL/assoc/captage_pompe.iuml
 !includeurl GIT_URL/assoc/capteur_echantillonneur.iuml
 !includeurl GIT_URL/assoc/carteInterface_peripherique.iuml
