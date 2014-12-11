@@ -27,7 +27,6 @@
 !includeurl GIT_URL/evacuation.iuml
 !includeurl GIT_URL/fauxFond.iuml
 !includeurl GIT_URL/filtre.iuml
-!includeurl GIT_URL/fluide.iuml
 !includeurl GIT_URL/isolant.iuml
 !includeurl GIT_URL/melangeur.iuml
 !includeurl GIT_URL/metadonnee.iuml
