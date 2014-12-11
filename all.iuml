@@ -31,7 +31,7 @@
 !includeurl GIT_URL/fluide.iuml
 !includeurl GIT_URL/isolant.iuml
 !includeurl GIT_URL/melangeur.iuml
-!includeurl GIT_URL/meta.iuml
+!includeurl GIT_URL/metadonnee.iuml
 !includeurl GIT_URL/note.iuml
 !includeurl GIT_URL/nourrice.iuml
 !includeurl GIT_URL/objetBase.iuml
@@ -77,7 +77,7 @@
 !includeurl GIT_URL/assoc/equipement_refroidisseurPlaques.iuml
 !includeurl GIT_URL/assoc/note_objetBase.iuml
 !includeurl GIT_URL/assoc/note_utilisateur.iuml
-!includeurl GIT_URL/assoc/objetBase_meta.iuml
+!includeurl GIT_URL/assoc/objetBase_metadonnee.iuml
 !includeurl GIT_URL/assoc/peripherique_echantillonneur.iuml
 !includeurl GIT_URL/assoc/raccordable_raccord.iuml
 !includeurl GIT_URL/assoc/raccordable_nourrice.iuml

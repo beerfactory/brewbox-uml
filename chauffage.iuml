@@ -22,7 +22,6 @@ Composant <|-- Chauffage
 Actionnable <|-- Chauffage
 Actionneur <|-- Résistance
 Actionneur <|-- Bruleur
-Résistance "0..n" -- "1" TypeAlimentation
 Bruleur "0..n" -- "1" TypeBruleur
 
 

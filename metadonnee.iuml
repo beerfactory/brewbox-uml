@@ -1,4 +1,4 @@
-class Meta {
+class MetaDonnée {
 	cle : Chaine
 	valeur : Chaine
 }
