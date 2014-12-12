@@ -6,4 +6,4 @@ class Tuyau <<Raccordable>> {
 }
 
 Raccordable <|-- Tuyau
-Composant <|-- Tuyau
+ObjetBase <|-- Tuyau
