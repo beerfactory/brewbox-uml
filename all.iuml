@@ -16,7 +16,6 @@
 !includeurl GIT_URL/common.iuml
 !includeurl GIT_URL/composant.iuml
 !includeurl GIT_URL/controleur.iuml
-!includeurl GIT_URL/coude.iuml
 !includeurl GIT_URL/cuve.iuml
 !includeurl GIT_URL/douchette.iuml
 !includeurl GIT_URL/echantillon.iuml

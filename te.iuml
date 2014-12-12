@@ -5,4 +5,4 @@ class Té <<Raccordable>> {
 }
 
 Raccordable <|-- Té
-Composant <|-- Té
+Equipement <|-- Té
