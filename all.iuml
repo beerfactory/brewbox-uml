@@ -81,6 +81,7 @@
 !includeurl GIT_URL/assoc/raccordable_pompe.iuml
 !includeurl GIT_URL/assoc/raccordable_refroidisseurPlaques.iuml
 !includeurl GIT_URL/assoc/raccordable_alimentationEau.iuml
+!includeurl GIT_URL/assoc/raccordable_te.iuml
 !includeurl GIT_URL/assoc/serie_echantillon.iuml
 !includeurl GIT_URL/assoc/utilisateur_brasseur.iuml
 @enduml

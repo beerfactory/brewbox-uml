@@ -4,5 +4,4 @@ class Té <<Raccordable>> {
     matiere : Chaine
 }
 
-Raccordable <|-- Té
 Equipement <|-- Té
