@@ -1,0 +1,7 @@
+class Résistance {
+    longueur : EntierCourt
+    densitePuissance : EntierCourt
+    tension : EntierCourt
+}
+
+Actionneur <|-- Résistance

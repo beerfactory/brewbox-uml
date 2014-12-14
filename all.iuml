@@ -43,7 +43,11 @@
 !includeurl GIT_URL/typeAlimentation.iuml
 !includeurl GIT_URL/utilisateur.iuml
 !includeurl GIT_URL/vanne.iuml
+!includeurl GIT_URL/resistance.iuml
+!includeurl GIT_URL/bruleur.iuml
 !includeurl GIT_URL/assoc/actionneur_controleur.iuml
+!includeurl GIT_URL/assoc/actionnable_chauffage.iuml
+!includeurl GIT_URL/assoc/actionnable_electrovanne.iuml
 !includeurl GIT_URL/assoc/branchement_raccord.iuml
 !includeurl GIT_URL/assoc/branchement_tuyau.iuml
 !includeurl GIT_URL/assoc/brasserie_alimentationElectrique.iuml

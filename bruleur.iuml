@@ -1,0 +1,12 @@
+class Bruleur {
+    diametre : EntierCourt
+    type : TypeBruleur
+}
+
+enum TypeBruleur {
+    GAZ_DE_VILLE
+    PROPANE
+    BUTANE
+}
+
+Actionneur <|-- Bruleur
