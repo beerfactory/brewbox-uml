@@ -8,7 +8,4 @@ class ElectroVanne <<Actionnable>> {
 }
 
 Vanne <|-- ElectroVanne
-Raccordable <|-- Vanne
 Composant <|-- Vanne
-Actionnable <|-- ElectroVanne
-
