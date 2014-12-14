@@ -48,6 +48,7 @@
 !includeurl GIT_URL/assoc/actionneur_controleur.iuml
 !includeurl GIT_URL/assoc/actionnable_chauffage.iuml
 !includeurl GIT_URL/assoc/actionnable_electrovanne.iuml
+!includeurl GIT_URL/assoc/actionnable_melangeur.iuml
 !includeurl GIT_URL/assoc/branchement_raccord.iuml
 !includeurl GIT_URL/assoc/branchement_tuyau.iuml
 !includeurl GIT_URL/assoc/brasserie_alimentationElectrique.iuml
