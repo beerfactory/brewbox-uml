@@ -1,5 +1,0 @@
-class Tresse {
-	
-}
-
-Filtre <|-- Tresse

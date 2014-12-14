@@ -2,6 +2,15 @@ class Filtre <<Raccordable>> {
 	
 }
 
-Raccordable <|-- Filtre
+class FauxFond {
+	
+}
+
+class Tresse {
+	
+}
+
+Filtre <|-- Tresse
+Filtre <|-- FauxFond
 Composant <|-- Filtre
 

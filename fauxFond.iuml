@@ -1,5 +1,0 @@
-class FauxFond {
-	
-}
-
-Filtre <|-- FauxFond

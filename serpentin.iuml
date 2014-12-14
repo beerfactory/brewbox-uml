@@ -7,5 +7,4 @@ class Serpentin <<Raccordable>> {
     pas : DecimalCourt
 }
 
-Raccordable <|-- Serpentin
 Composant <|-- Serpentin

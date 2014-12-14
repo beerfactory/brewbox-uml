@@ -2,5 +2,4 @@ class Douchette <<Raccordable>> {
 	
 }
 
-Raccordable <|-- Douchette
 Composant <|-- Douchette

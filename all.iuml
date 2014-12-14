@@ -24,7 +24,6 @@
 !includeurl GIT_URL/environnement.iuml
 !includeurl GIT_URL/equipement.iuml
 !includeurl GIT_URL/evacuation.iuml
-!includeurl GIT_URL/fauxFond.iuml
 !includeurl GIT_URL/filtre.iuml
 !includeurl GIT_URL/isolant.iuml
 !includeurl GIT_URL/melangeur.iuml
@@ -40,7 +39,6 @@
 !includeurl GIT_URL/serie.iuml
 !includeurl GIT_URL/serpentin.iuml
 !includeurl GIT_URL/te.iuml
-!includeurl GIT_URL/tresse.iuml
 !includeurl GIT_URL/tuyau.iuml
 !includeurl GIT_URL/typeAlimentation.iuml
 !includeurl GIT_URL/utilisateur.iuml
