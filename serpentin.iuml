@@ -6,5 +6,3 @@ class Serpentin <<Raccordable>> {
     diametreSerpentin : DecimalCourt
     pas : DecimalCourt
 }
-
-Composant <|-- Serpentin

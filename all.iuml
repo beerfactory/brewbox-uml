@@ -67,6 +67,10 @@
 !includeurl GIT_URL/assoc/carteInterface_peripherique.iuml
 !includeurl GIT_URL/assoc/controleur_peripherique.iuml
 !includeurl GIT_URL/assoc/composant_chauffage.iuml
+!includeurl GIT_URL/assoc/composant_serpentin.iuml
+!includeurl GIT_URL/assoc/composant_filtre.iuml
+!includeurl GIT_URL/assoc/composant_douchette.iuml
+!includeurl GIT_URL/assoc/composant_vanne.iuml
 !includeurl GIT_URL/assoc/echantillonneur_serie.iuml
 !includeurl GIT_URL/assoc/emplacementCapteur_capteur.iuml
 !includeurl GIT_URL/assoc/brasserie_alimentationEau.iuml

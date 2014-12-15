@@ -12,5 +12,4 @@ class Tresse {
 
 Filtre <|-- Tresse
 Filtre <|-- FauxFond
-Composant <|-- Filtre
 
