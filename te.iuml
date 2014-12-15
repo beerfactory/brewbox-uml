@@ -3,5 +3,3 @@ class Té <<Raccordable>> {
     diametreInterne : DecimalCourt
     matiere : Chaine
 }
-
-Equipement <|-- Té

@@ -66,12 +66,14 @@
 !includeurl GIT_URL/assoc/capteur_echantillonneur.iuml
 !includeurl GIT_URL/assoc/carteInterface_peripherique.iuml
 !includeurl GIT_URL/assoc/controleur_peripherique.iuml
+!includeurl GIT_URL/assoc/composant_chauffage.iuml
 !includeurl GIT_URL/assoc/echantillonneur_serie.iuml
 !includeurl GIT_URL/assoc/emplacementCapteur_capteur.iuml
 !includeurl GIT_URL/assoc/brasserie_alimentationEau.iuml
 !includeurl GIT_URL/assoc/equipement_chambreFermentation.iuml
 !includeurl GIT_URL/assoc/equipement_composant.iuml
 !includeurl GIT_URL/assoc/equipement_cuve.iuml
+!includeurl GIT_URL/assoc/equipement_te.iuml
 !includeurl GIT_URL/assoc/brasserie_evacuation.iuml
 !includeurl GIT_URL/assoc/equipement_nourrice.iuml
 !includeurl GIT_URL/assoc/equipement_pompe.iuml
