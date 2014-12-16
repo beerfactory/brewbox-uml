@@ -1,0 +1,13 @@
+@startuml
+!include ./include/objetBase.iuml
+!include ./include/brasserie.iuml
+!include ./include/utilisateur.iuml
+!include ./include/brasseur.iuml
+!include ./include/equipement.iuml
+!include ./include/assoc/utilisateur_brasseur.iuml
+!include ./include/assoc/brasserie_brasseur.iuml
+!include ./include/assoc/brasserie_equipement.iuml
+!include ./include/assoc/brasserie_alimentationEau.iuml
+!include ./include/assoc/brasserie_alimentationElectrique.iuml
+!include ./include/assoc/brasserie_environnement.iuml
+@enduml

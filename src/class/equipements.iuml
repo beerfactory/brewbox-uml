@@ -1,0 +1,18 @@
+@startuml
+!include ./include/equipement.iuml
+!include ./include/composant.iuml
+!include ./include/pompe.iuml
+!include ./include/cuve.iuml
+!include ./include/chambreFermentation.iuml
+!include ./include/nourrice.iuml
+!include ./include/te.iuml
+!include ./include/refroidisseurPlaques.iuml
+!include ./include/assoc/brasserie_equipement.iuml
+!include ./include/assoc/equipement_pompe.iuml
+!include ./include/assoc/equipement_cuve.iuml
+!include ./include/assoc/equipement_chambreFermentation.iuml
+!include ./include/assoc/equipement_nourrice.iuml
+!include ./include/assoc/equipement_composant.iuml
+!include ./include/assoc/equipement_refroidisseurPlaques.iuml
+!include ./include/assoc/equipement_te.iuml
+@enduml

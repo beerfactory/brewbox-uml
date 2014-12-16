@@ -1,0 +1,25 @@
+@startuml
+!define GIT_URL https://raw.githubusercontent.com/beerfactory/brewbox-uml/master
+!include ./include/captage.iuml
+!include ./include/capteur.iuml
+!include ./include/carteInterface.iuml
+!include ./include/peripherique.iuml
+!include ./include/serie.iuml
+!include ./include/controleur.iuml
+!include ./include/echantillonneur.iuml
+!include ./include/emplacementCapteur.iuml
+!include ./include/assoc/echantillonneur_serie.iuml
+!include ./include/assoc/emplacementCapteur_capteur.iuml
+!include ./include/assoc/captage_alimentationElectrique.iuml
+!include ./include/assoc/captage_alimentationEau.iuml
+!include ./include/assoc/captage_cuve.iuml
+!include ./include/assoc/captage_emplacementCapteur.iuml
+!include ./include/assoc/captage_environnement.iuml
+!include ./include/assoc/captage_raccord.iuml
+!include ./include/assoc/captage_pompe.iuml
+!include ./include/assoc/capteur_echantillonneur.iuml
+!include ./include/assoc/carteInterface_peripherique.iuml
+!include ./include/assoc/controleur_peripherique.iuml
+!include ./include/assoc/peripherique_echantillonneur.iuml
+!include ./include/assoc/serie_echantillon.iuml
+@enduml

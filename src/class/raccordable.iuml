@@ -1,0 +1,27 @@
+@startuml
+!include ./include/raccordable.iuml
+!include ./include/pompe.iuml
+!include ./include/te.iuml
+!include ./include/refroidisseurPlaques.iuml
+!include ./include/nourrice.iuml
+!include ./include/evacuation.iuml
+!include ./include/tuyau.iuml
+!include ./include/raccord.iuml
+!include ./include/douchette.iuml
+!include ./include/filtre.iuml
+!include ./include/serpentin.iuml
+!include ./include/vanne.iuml
+!include ./include/branchement.iuml
+!include ./include/assoc/raccordable_alimentationEau.iuml
+!include ./include/assoc/raccordable_douchette.iuml
+!include ./include/assoc/raccordable_filtre.iuml
+!include ./include/assoc/raccordable_nourrice.iuml
+!include ./include/assoc/raccordable_pompe.iuml
+!include ./include/assoc/raccordable_raccord.iuml
+!include ./include/assoc/raccordable_refroidisseurPlaques.iuml
+!include ./include/assoc/raccordable_serpentin.iuml
+!include ./include/assoc/raccordable_te.iuml
+!include ./include/assoc/raccordable_vanne.iuml
+!include ./include/assoc/branchement_raccord.iuml
+!include ./include/assoc/branchement_tuyau.iuml
+@enduml

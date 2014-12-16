@@ -1,0 +1,12 @@
+@startuml
+!include ./include/actionnable.iuml
+!include ./include/actionneur.iuml
+!include ./include/resistance.iuml
+!include ./include/controleur.iuml
+!include ./include/chauffage.iuml
+!include ./include/assoc/actionnable_chauffage.iuml
+!include ./include/assoc/actionnable_pompe.iuml
+!include ./include/assoc/actionnable_melangeur.iuml
+!include ./include/assoc/actionnable_electrovanne.iuml
+!include ./include/assoc/actionneur_controleur.iuml
+@enduml

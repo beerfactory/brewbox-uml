@@ -1,0 +1,15 @@
+@startuml
+!include ./include/composant.iuml
+!include ./include/isolant.iuml
+!include ./include/filtre.iuml
+!include ./include/serpentin.iuml
+!include ./include/douchette.iuml
+!include ./include/vanne.iuml
+!include ./include/chauffage.iuml
+!include ./include/melangeur.iuml
+!include ./include/assoc/composant_chauffage.iuml
+!include ./include/assoc/composant_serpentin.iuml
+!include ./include/assoc/composant_filtre.iuml
+!include ./include/assoc/composant_douchette.iuml
+!include ./include/assoc/composant_vanne.iuml
+@enduml
