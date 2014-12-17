@@ -1,4 +1,4 @@
-abstract class Equipement {
+class Equipement {
     + dateInstallation : Horodatage
     + etat : EtatEquipement
 }

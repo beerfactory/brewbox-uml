@@ -6,6 +6,7 @@
 !include ./include/equipement.iuml
 !include ./include/alimentationEau.iuml
 !include ./include/alimentationElectrique.iuml
+!include ./include/typeAlimentation.iuml
 !include ./include/assoc/utilisateur_brasseur.iuml
 !include ./include/assoc/brasserie_brasseur.iuml
 !include ./include/assoc/brasserie_equipement.iuml

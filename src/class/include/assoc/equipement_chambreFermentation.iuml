@@ -1,2 +1,0 @@
-Equipement <|-- ChambreFermentation
-ChambreFermentation "0..1" -- "0..n" Equipement : contient >
