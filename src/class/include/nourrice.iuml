@@ -1,4 +1,0 @@
-class Nourrice <<Raccordable>> {
-	nbConnexions : EntierCourt
-}
-
