@@ -1,9 +1,9 @@
 @startuml
-!include ./include/objetBase.iuml
-!include ./include/metadonnee.iuml
+!include ./include/baseObject.iuml
+!include ./include/metadata.iuml
 !include ./include/note.iuml
-!include ./include/utilisateur.iuml
-!include ./include/assoc/note_objetBase.iuml
-!include ./include/assoc/note_utilisateur.iuml
-!include ./include/assoc/objetBase_metadonnee.iuml
+!include ./include/user.iuml
+!include ./include/assoc/note_baseObject.iuml
+!include ./include/assoc/note_user.iuml
+!include ./include/assoc/baseObject_metadata.iuml
 @enduml

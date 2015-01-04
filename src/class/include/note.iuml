@@ -1,4 +1,4 @@
 Class Note {
-    + dateCreation : Horodatage
-    + texte : Chaine
+    + creationDate : Timestamp
+    + text : String
 }

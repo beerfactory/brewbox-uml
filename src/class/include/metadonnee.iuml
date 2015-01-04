@@ -1,4 +1,0 @@
-class MetaDonnée {
-	cle : Chaine
-	valeur : Chaine
-}
