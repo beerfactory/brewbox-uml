@@ -1,0 +1,7 @@
+class WaterSupply {
+	unitPrice : Float
+
+}
+
+BaseObject <|-- WaterSupply
+

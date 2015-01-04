@@ -1,0 +1,16 @@
+@startuml
+!include ./include/baseObject.iuml
+!include ./include/brewery.iuml
+!include ./include/user.iuml
+!include ./include/brewer.iuml
+!include ./include/equipment.iuml
+!include ./include/waterSupply.iuml
+!include ./include/powerSupply.iuml
+!include ./include/powerType.iuml
+!include ./include/assoc/user_brewer.iuml
+!include ./include/assoc/brewery_brewer.iuml
+!include ./include/assoc/brewery_equipment.iuml
+!include ./include/assoc/brewery_waterSupply.iuml
+!include ./include/assoc/brewery_powerSupply.iuml
+!include ./include/assoc/brewery_environment.iuml
+@enduml

@@ -1,8 +1,0 @@
-class AlimentationElectrique {
-	alimentation : TypeAlimentation
-	tensionEff : EntierCourt
-	intensiteMas : EntierCourt
-	tarifkWh : Flottant
-}
-
-ObjetBase <|-- AlimentationElectrique

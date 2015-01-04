@@ -80,7 +80,7 @@
 !includeurl GIT_URL/assoc/equipement_te.iuml
 !includeurl GIT_URL/assoc/brasserie_evacuation.iuml
 !includeurl GIT_URL/assoc/equipement_nourrice.iuml
-!includeurl GIT_URL/assoc/equipement_pompe.iuml
+!includeurl GIT_URL/assoc/ressource_pompe.iuml
 !includeurl GIT_URL/assoc/equipement_refroidisseurPlaques.iuml
 !includeurl GIT_URL/assoc/note_objetBase.iuml
 !includeurl GIT_URL/assoc/note_utilisateur.iuml

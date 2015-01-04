@@ -1,0 +1,13 @@
+class Brewery {
+	state: BreweryState
+}
+
+enum BreweryState {
+    PROJECT
+    MANAGED
+    AUTONOMEOUS
+    INACTIVE
+    RETIRED
+}
+
+BaseObject <|-- Brewery

@@ -1,7 +1,0 @@
-class AlimentationEau {
-	tarifm3 : Flottant
-
-}
-
-ObjetBase <|-- AlimentationEau
-

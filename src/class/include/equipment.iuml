@@ -1,0 +1,14 @@
+class Equipment {
+    + installDate : Timestamp
+    + state : EquipmentState
+}
+
+enum EquipmentState {
+    PLANNED
+    INSTALLED
+    ACTIVE
+    INACTIVE
+    RETIRED
+}
+
+BaseObject <|-- Equipment
