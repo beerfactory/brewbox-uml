@@ -1,4 +1,0 @@
-class Collecteur <<Raccordable>> {
-	nbConnexions : EntierCourt
-}
-

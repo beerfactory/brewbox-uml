@@ -7,10 +7,25 @@
 !include ./include/waterSupply.iuml
 !include ./include/powerSupply.iuml
 !include ./include/powerType.iuml
+!include ./include/component.iuml
+!include ./include/pump.iuml
+!include ./include/brewpot.iuml
+!include ./include/manifold.iuml
+!include ./include/te.iuml
+!include ./include/resource.iuml
+!include ./include/cooler.iuml
 !include ./include/assoc/user_brewer.iuml
 !include ./include/assoc/brewery_brewer.iuml
 !include ./include/assoc/brewery_equipment.iuml
 !include ./include/assoc/brewery_waterSupply.iuml
 !include ./include/assoc/brewery_powerSupply.iuml
 !include ./include/assoc/brewery_environment.iuml
+!include ./include/assoc/equipment_resource.iuml
+!include ./include/assoc/resource_baseObject.iuml
+!include ./include/assoc/resource_pump.iuml
+!include ./include/assoc/resource_brewpot.iuml
+!include ./include/assoc/resource_manifold.iuml
+!include ./include/assoc/resource_cooler.iuml
+!include ./include/assoc/resource_te.iuml
+!include ./include/assoc/resource_component.iuml
 @enduml

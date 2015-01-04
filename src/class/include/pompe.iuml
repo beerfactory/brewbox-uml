@@ -1,4 +1,0 @@
-class Pompe <<Actionnable>> {
-    pomper(pct)
-}
-

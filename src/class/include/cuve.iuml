@@ -1,9 +1,0 @@
-class Cuve {
-    volumeMax : EntierCourt
-    volumeUtile : EntierCourt
-    hauteur : EntierCourt
-    diametre : EntierCourt
-    profondeur : EntierCourt
-    masseVide : EntierCourt
-    matiere : Chaine
-}
