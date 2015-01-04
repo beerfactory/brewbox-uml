@@ -14,6 +14,15 @@
 !include ./include/te.iuml
 !include ./include/resource.iuml
 !include ./include/cooler.iuml
+
+!include ./include/insulator.iuml
+!include ./include/filter.iuml
+!include ./include/coil.iuml
+!include ./include/shower.iuml
+!include ./include/valve.iuml
+!include ./include/heater.iuml
+!include ./include/mixer.iuml
+
 !include ./include/assoc/user_brewer.iuml
 !include ./include/assoc/brewery_brewer.iuml
 !include ./include/assoc/brewery_equipment.iuml
@@ -28,4 +37,11 @@
 !include ./include/assoc/resource_cooler.iuml
 !include ./include/assoc/resource_te.iuml
 !include ./include/assoc/resource_component.iuml
+
+!include ./include/assoc/component_heater.iuml
+!include ./include/assoc/component_coil.iuml
+!include ./include/assoc/component_filter.iuml
+!include ./include/assoc/component_shower.iuml
+!include ./include/assoc/component_valve.iuml
+
 @enduml

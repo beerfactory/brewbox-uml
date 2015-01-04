@@ -1,0 +1,7 @@
+class Insulator {
+    matter : String
+    thickness : Float
+    thermelResistance : Float
+}
+
+Component <|- Insulator

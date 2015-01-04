@@ -1,0 +1,7 @@
+class Valve  <<Raccordable>> {
+}
+
+class ElectroValve <<Actionnable>> {
+}
+
+Valve <|-- ElectroValve

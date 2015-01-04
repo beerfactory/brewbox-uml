@@ -1,6 +1,0 @@
-class Melangeur <<Actionnable>> {
-    vitesse : EntierCourt
-    melanger(vitesse)
-}
-
-Composant <|-- Melangeur

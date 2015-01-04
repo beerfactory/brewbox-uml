@@ -1,0 +1,3 @@
+class Heater <<Actionnable>> {
+    power : Short
+}

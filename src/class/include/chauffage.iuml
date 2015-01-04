@@ -1,3 +1,0 @@
-class Chauffage <<Actionnable>> {
-    puissance : EntierLong
-}

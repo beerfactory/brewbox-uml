@@ -1,0 +1,15 @@
+class Filter <<Raccordable>> {
+	
+}
+
+class FalseBottom {
+	
+}
+
+class Braid {
+	
+}
+
+Filter <|-- Braid
+Filter <|-- FalseBottom
+
