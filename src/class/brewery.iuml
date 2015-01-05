@@ -14,6 +14,7 @@
 !include ./include/te.iuml
 !include ./include/resource.iuml
 !include ./include/cooler.iuml
+!include ./include/hardware.iuml
 
 !include ./include/insulator.iuml
 !include ./include/filter.iuml
@@ -24,13 +25,13 @@
 !include ./include/mixer.iuml
 
 !include ./include/assoc/user_brewer.iuml
+!include ./include/assoc/baseObject_hardware.iuml
 !include ./include/assoc/brewery_brewer.iuml
 !include ./include/assoc/brewery_equipment.iuml
 !include ./include/assoc/brewery_waterSupply.iuml
 !include ./include/assoc/brewery_powerSupply.iuml
 !include ./include/assoc/brewery_environment.iuml
 !include ./include/assoc/equipment_resource.iuml
-!include ./include/assoc/resource_baseObject.iuml
 !include ./include/assoc/resource_pump.iuml
 !include ./include/assoc/resource_brewpot.iuml
 !include ./include/assoc/resource_manifold.iuml
@@ -44,4 +45,6 @@
 !include ./include/assoc/component_shower.iuml
 !include ./include/assoc/component_valve.iuml
 
+!include ./include/assoc/hardware_component.iuml
+!include ./include/assoc/hardware_resource.iuml
 @enduml

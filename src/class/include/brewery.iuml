@@ -1,5 +1,5 @@
 class Brewery {
-	state: BreweryState
+	+ state: BreweryState
 }
 
 enum BreweryState {
