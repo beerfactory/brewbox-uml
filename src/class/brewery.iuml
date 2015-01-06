@@ -7,15 +7,14 @@
 !include ./include/waterSupply.iuml
 !include ./include/powerSupply.iuml
 !include ./include/powerType.iuml
-!include ./include/component.iuml
+!include ./include/addon.iuml
 !include ./include/pump.iuml
 !include ./include/brewpot.iuml
 !include ./include/manifold.iuml
 !include ./include/te.iuml
-!include ./include/resource.iuml
+!include ./include/component.iuml
 !include ./include/cooler.iuml
 !include ./include/hardware.iuml
-
 !include ./include/insulator.iuml
 !include ./include/filter.iuml
 !include ./include/coil.iuml
@@ -23,6 +22,7 @@
 !include ./include/valve.iuml
 !include ./include/heater.iuml
 !include ./include/mixer.iuml
+!include ./include/fermentationChamber.iuml
 
 !include ./include/assoc/user_brewer.iuml
 !include ./include/assoc/baseObject_hardware.iuml
@@ -31,20 +31,22 @@
 !include ./include/assoc/brewery_waterSupply.iuml
 !include ./include/assoc/brewery_powerSupply.iuml
 !include ./include/assoc/brewery_environment.iuml
-!include ./include/assoc/equipment_resource.iuml
-!include ./include/assoc/resource_pump.iuml
-!include ./include/assoc/resource_brewpot.iuml
-!include ./include/assoc/resource_manifold.iuml
-!include ./include/assoc/resource_cooler.iuml
-!include ./include/assoc/resource_te.iuml
-!include ./include/assoc/resource_component.iuml
+!include ./include/assoc/equipment_component.iuml
+!include ./include/assoc/component_pump.iuml
+!include ./include/assoc/component_brewpot.iuml
+!include ./include/assoc/component_manifold.iuml
+!include ./include/assoc/component_fermentationChamber.iuml
+!include ./include/assoc/addon_te.iuml
+!include ./include/assoc/component_addon.iuml
 
-!include ./include/assoc/component_heater.iuml
-!include ./include/assoc/component_coil.iuml
-!include ./include/assoc/component_filter.iuml
-!include ./include/assoc/component_shower.iuml
-!include ./include/assoc/component_valve.iuml
+!include ./include/assoc/addon_heater.iuml
+!include ./include/assoc/addon_cooler.iuml
+!include ./include/assoc/addon_coil.iuml
+!include ./include/assoc/addon_filter.iuml
+!include ./include/assoc/addon_shower.iuml
+!include ./include/assoc/addon_valve.iuml
+!include ./include/assoc/addon_insulator.iuml
 
+!include ./include/assoc/hardware_addon.iuml
 !include ./include/assoc/hardware_component.iuml
-!include ./include/assoc/hardware_resource.iuml
 @enduml

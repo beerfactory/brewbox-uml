@@ -3,5 +3,3 @@ class Insulator {
     thickness : Float
     thermelResistance : Float
 }
-
-Component <|- Insulator

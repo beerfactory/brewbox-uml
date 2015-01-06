@@ -2,4 +2,4 @@ class Mixer <<Actionnable>> {
     speed : Short
 }
 
-Component <|-- Mixer
+Addon <|-- Mixer
