@@ -28,9 +28,9 @@
 !include ./include/assoc/baseObject_hardware.iuml
 !include ./include/assoc/brewery_brewer.iuml
 !include ./include/assoc/brewery_equipment.iuml
-!include ./include/assoc/brewery_waterSupply.iuml
-!include ./include/assoc/brewery_powerSupply.iuml
-!include ./include/assoc/brewery_environment.iuml
+!include ./include/assoc/equipment_waterSupply.iuml
+!include ./include/assoc/equipment_powerSupply.iuml
+!include ./include/assoc/equipment_environment.iuml
 !include ./include/assoc/equipment_component.iuml
 !include ./include/assoc/component_pump.iuml
 !include ./include/assoc/component_brewpot.iuml
