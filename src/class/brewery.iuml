@@ -7,7 +7,7 @@
 !include ./include/waterSupply.iuml
 !include ./include/powerSupply.iuml
 !include ./include/powerType.iuml
-!include ./include/addon.iuml
+!include ./include/brewpotAddon.iuml
 !include ./include/pump.iuml
 !include ./include/brewpot.iuml
 !include ./include/manifold.iuml
@@ -22,7 +22,6 @@
 !include ./include/valve.iuml
 !include ./include/heater.iuml
 !include ./include/mixer.iuml
-!include ./include/fermentationChamber.iuml
 
 !include ./include/assoc/user_brewer.iuml
 !include ./include/assoc/baseObject_hardware.iuml
@@ -35,18 +34,20 @@
 !include ./include/assoc/component_pump.iuml
 !include ./include/assoc/component_brewpot.iuml
 !include ./include/assoc/component_manifold.iuml
-!include ./include/assoc/component_fermentationChamber.iuml
-!include ./include/assoc/addon_te.iuml
-!include ./include/assoc/component_addon.iuml
+!include ./include/assoc/component_te.iuml
 
-!include ./include/assoc/addon_heater.iuml
-!include ./include/assoc/addon_cooler.iuml
-!include ./include/assoc/addon_coil.iuml
-!include ./include/assoc/addon_filter.iuml
-!include ./include/assoc/addon_shower.iuml
-!include ./include/assoc/addon_valve.iuml
-!include ./include/assoc/addon_insulator.iuml
+!include ./include/assoc/hardware_heater.iuml
+!include ./include/assoc/hardware_cooler.iuml
+!include ./include/assoc/brewpotAddon_coil.iuml
+!include ./include/assoc/component_filter.iuml
+!include ./include/assoc/brewpotAddon_shower.iuml
+!include ./include/assoc/component_valve.iuml
+!include ./include/assoc/brewpotAddon_insulator.iuml
+!include ./include/assoc/brewpotAddon_mixer.iuml
 
-!include ./include/assoc/hardware_addon.iuml
 !include ./include/assoc/hardware_component.iuml
+!include ./include/assoc/hardware_brewpotAddon.iuml
+!include ./include/assoc/brewpot_brewpotAddon.iuml
+!include ./include/assoc/environment_cooler_heater.iuml
+
 @enduml
