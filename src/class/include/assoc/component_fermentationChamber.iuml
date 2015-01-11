@@ -1,0 +1,2 @@
+Component <|-- FermentationChamber
+FermentationChamber "0..1" -- "0..n" Component : contains >

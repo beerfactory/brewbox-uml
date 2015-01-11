@@ -1,0 +1,3 @@
+class HeatExchanger {
+	nbPlates : integer
+}
