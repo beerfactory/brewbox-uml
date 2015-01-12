@@ -1,17 +1,17 @@
 class Fitting {
-    diametreRaccord : DecimalCourt
-    typeRaccord : Chaine
-    genre : GenreRaccord
-    sens : SensFluide
+    diameter : Float
+    type : String
+    gender : FittingGender
+    direction : LiquidDirection
 }
 
-enum GenreRaccord {
+enum FittingGender {
     MALE
-    FEMELLE
+    FEMALE
 }
 
-enum SensFluide {
-	ENTREE
-	SORTIE
+enum LiquidDirection {
+	INPUT
+	OUTPUT
 }
 
