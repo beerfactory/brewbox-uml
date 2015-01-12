@@ -1,4 +1,4 @@
-class Valve  <<Raccordable>> {
+class Valve  {
 }
 
 class ElectroValve <<Actionnable>> {

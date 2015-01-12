@@ -1,17 +1,19 @@
-class Fitting {
-    diameter : Float
-    type : String
-    gender : FittingGender
-    direction : LiquidDirection
-}
+package raccordable {
 
-enum FittingGender {
-    MALE
-    FEMALE
-}
+	class Fitting {
+	    diameter : Float
+	    type : String
+	    gender : FittingGender
+	    direction : LiquidDirection
+	}
 
-enum LiquidDirection {
-	INPUT
-	OUTPUT
-}
+	enum FittingGender {
+	    MALE
+	    FEMALE
+	}
 
+	enum LiquidDirection {
+		INPUT
+		OUTPUT
+	}
+}

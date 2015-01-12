@@ -1,3 +1,5 @@
-abstract class Raccordable <<Raccordable>> {
-	
+package raccordable {
+	abstract class Raccordable {
+		
+	}	
 }

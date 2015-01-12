@@ -1,4 +1,4 @@
-class Manifold <<Raccordable>> {
+class Manifold {
 	connectionsCount : Short
 }
 

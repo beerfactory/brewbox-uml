@@ -1,4 +1,4 @@
-class Cooler <<Raccordable>> {
+class Cooler {
     power : Long
 	nbPlaques : Integer
 }

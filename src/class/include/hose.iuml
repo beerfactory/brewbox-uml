@@ -1,6 +1,8 @@
-class Hose <<Raccordable>> {
-    externalDiameter : Float
-    internalDiameter : Float
-    length : Float
-    matter : String
+package raccordable {
+	class Hose {
+	    externalDiameter : Float
+	    internalDiameter : Float
+	    length : Float
+	    matter : String
+	}
 }

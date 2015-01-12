@@ -1,3 +1,5 @@
-class Connection {
-    
+package raccordable {
+	class Connection {
+	    
+	}	
 }

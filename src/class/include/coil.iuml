@@ -1,4 +1,4 @@
-class Coil <<Raccordable>> {
+class Coil {
     externalDiameter : Float
     internalDiameter : Float
     length : Short
