@@ -1,3 +1,5 @@
-class HeatingElement {
-	
+package brewery {
+	class HeatingElement {
+		
+	}
 }

@@ -1,0 +1,6 @@
+package brewery {
+	class Environment {
+		
+	}
+}
+BaseObject <|-- Environment

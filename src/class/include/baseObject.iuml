@@ -1,6 +1,8 @@
-abstract class BaseObject {
-    + name : String
-    + description : String
-    + creationDate : Timestamp
-    + updateDate : Timestamp
+package base {
+	abstract class BaseObject {
+	    + name : String
+	    + description : String
+	    + creationDate : Timestamp
+	    + updateDate : Timestamp
+	}	
 }

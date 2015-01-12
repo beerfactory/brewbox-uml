@@ -14,6 +14,7 @@
 !include ./include/brewpot.iuml
 !include ./include/manifold.iuml
 !include ./include/plumbingElement.iuml
+!include ./include/environment.iuml
 !include ./include/component.iuml
 !include ./include/cooler.iuml
 !include ./include/hardware.iuml

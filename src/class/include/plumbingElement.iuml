@@ -1,2 +1,4 @@
-class PlumbingElement {
+package brewery {
+	class PlumbingElement {
+	}
 }

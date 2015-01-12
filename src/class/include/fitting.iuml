@@ -3,8 +3,6 @@ package raccordable {
 	class Fitting {
 	    diameter : Float
 	    type : String
-	    gender : FittingGender
-	    direction : LiquidDirection
 	}
 
 	enum FittingGender {
@@ -17,3 +15,6 @@ package raccordable {
 		OUTPUT
 	}
 }
+
+Fitting -- "1" FittingGender : gender
+Fitting -- "1" LiquidDirection : direction

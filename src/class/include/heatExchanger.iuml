@@ -1,3 +1,15 @@
-class HeatExchanger {
-	nbPlates : integer
+package brewery {
+	abstract class HeatExchanger {
+	}
+
+	class PlateExchanger {
+		nbPlates : integer	
+	}
+
+	class CoilExchanger {
+	}
 }
+
+HeatExchanger <|-- PlateExchanger
+HeatExchanger <|-- CoilExchanger
+CoilExchanger -- "1" Coil

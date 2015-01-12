@@ -1,14 +1,15 @@
-class Equipment {
-    + installDate : Timestamp
-    + state : EquipmentState
-}
+package brewery {
+	class Equipment {
+	    + installDate : Timestamp
+	}
 
-enum EquipmentState {
-    PLANNED
-    INSTALLED
-    ACTIVE
-    INACTIVE
-    RETIRED
+	enum EquipmentState {
+	    PLANNED
+	    INSTALLED
+	    ACTIVE
+	    INACTIVE
+	    RETIRED
+	}
 }
-
 BaseObject <|-- Equipment
+Equipment -- "1" EquipmentState : state

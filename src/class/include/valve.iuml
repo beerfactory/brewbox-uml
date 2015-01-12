@@ -1,7 +1,9 @@
-class Valve  {
-}
+package brewery {
+	class Valve  {
+	}
 
-class ElectroValve <<Actionnable>> {
+	class ElectroValve <<Actionnable>> {
+	}
 }
 
 Valve <|-- ElectroValve

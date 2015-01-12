@@ -1,3 +1,5 @@
-abstract class BrewpotAddon {
-	
+package brewery {
+	abstract class BrewpotAddon {
+		
+	}
 }

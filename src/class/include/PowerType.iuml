@@ -1,4 +1,6 @@
-enum PowerType {
-    SINGLE_PHASE
-    THREE_PHASE
+package brewery {
+	enum PowerType {
+	    SINGLE_PHASE
+	    THREE_PHASE
+	}
 }

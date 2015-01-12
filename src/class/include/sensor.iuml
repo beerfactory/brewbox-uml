@@ -3,10 +3,9 @@ package collectable {
 	}
 
 	class Thermometer {
-	    type : TypeThermometre
 	}
 
-	enum TypeThermometre {
+	enum ThermometerType {
 	    THERMOCOUPLE
 	    THERMISTANCE
 	    PT100
@@ -29,3 +28,5 @@ Sensor <|-- Thermometer
 Sensor <|-- FlowMeter
 Sensor <|-- Level
 Sensor <|-- PHMeter
+
+Thermometer -- "1" ThermometerType : type

@@ -1,3 +1,5 @@
-class Mixer {
-    speed : Short
+package brewery {
+	class Mixer {
+	    speed : Short
+	}
 }

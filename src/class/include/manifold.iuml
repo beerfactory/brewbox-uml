@@ -1,4 +1,5 @@
-class Manifold {
-	connectionsCount : Short
+package brewery {
+	class Manifold {
+		connectionsCount : Short
+	}
 }
-

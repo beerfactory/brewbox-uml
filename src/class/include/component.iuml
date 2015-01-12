@@ -1,3 +1,5 @@
-abstract class Component {
-	
+package brewery {
+	abstract class Component {
+		
+	}
 }

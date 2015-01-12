@@ -1,13 +1,15 @@
-class Filter {
-	
-}
+package brewery {
+	class Filter {
+		
+	}
 
-class FalseBottom {
-	
-}
+	class FalseBottom {
+		
+	}
 
-class Braid {
-	
+	class Braid {
+		
+	}
 }
 
 Filter <|-- Braid

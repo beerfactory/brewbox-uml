@@ -1,2 +1,4 @@
-class Brewer {
+package brewery {
+	class Brewer {
+	}
 }

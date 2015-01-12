@@ -1,5 +1,0 @@
-class Environnement {
-	
-}
-
-ObjetBase <|-- Environnement

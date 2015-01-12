@@ -1,3 +1,5 @@
-class Heater <<Actionnable>> {
-    power : Short
+package brewery {
+	class Heater {
+	    power : Short
+	}
 }

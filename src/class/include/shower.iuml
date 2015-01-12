@@ -1,3 +1,5 @@
-class Shower <<Raccordable>> {
-	
+package brewery {
+	class Shower {
+		
+	}
 }

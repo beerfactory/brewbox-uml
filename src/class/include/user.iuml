@@ -1,8 +1,10 @@
-class User {
-    + firstName : String
-    + lastName : String
-    + email : String
-    + mobile : String
-    + login : String
-    + password : String
+package base {
+	class User {
+	    + firstName : String
+	    + lastName : String
+	    + email : String
+	    + mobile : String
+	    + login : String
+	    + password : String
+	}	
 }

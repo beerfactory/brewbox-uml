@@ -1,4 +1,6 @@
-Class Note {
-    + creationDate : Timestamp
-    + text : String
+package base {
+	Class Note {
+	    + creationDate : Timestamp
+	    + text : String
+	}	
 }

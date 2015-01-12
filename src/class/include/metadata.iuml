@@ -1,4 +1,6 @@
-class MetaData {
-	key : String
-	value : String
+package base {
+	class MetaData {
+		key : String
+		value : String
+	}	
 }

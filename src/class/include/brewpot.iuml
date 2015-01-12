@@ -1,8 +1,10 @@
-class Brewpot {
-    maxVolume : Short
-    effVolume : Short
-    height : Short
-    diameter : Short
-    emptyWeight : Short
-    matter : String
+package brewery {
+	class Brewpot {
+	    maxVolume : Short
+	    effVolume : Short
+	    height : Short
+	    diameter : Short
+	    emptyWeight : Short
+	    matter : String
+	}
 }
