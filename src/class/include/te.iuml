@@ -1,5 +1,0 @@
-class Té {
-    diametreExterne : DecimalCourt
-    diametreInterne : DecimalCourt
-    matiere : Chaine
-}

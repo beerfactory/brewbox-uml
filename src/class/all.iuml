@@ -13,7 +13,7 @@
 !include ./include/pump.iuml
 !include ./include/brewpot.iuml
 !include ./include/manifold.iuml
-!include ./include/te.iuml
+!include ./include/plumbingElement.iuml
 !include ./include/component.iuml
 !include ./include/cooler.iuml
 !include ./include/hardware.iuml
@@ -47,7 +47,7 @@
 !include ./include/assoc/component_pump.iuml
 !include ./include/assoc/component_brewpot.iuml
 !include ./include/assoc/component_manifold.iuml
-!include ./include/assoc/component_te.iuml
+!include ./include/assoc/component_plumbingElement.iuml
 !include ./include/assoc/component_heatExchanger.iuml
 !include ./include/assoc/hardware_heater.iuml
 !include ./include/assoc/hardware_cooler.iuml
@@ -72,10 +72,9 @@
 !include ./include/assoc/raccordable_pump.iuml
 !include ./include/assoc/raccordable_fitting.iuml
 !include ./include/assoc/raccordable_coil.iuml
-!include ./include/assoc/raccordable_te.iuml
+!include ./include/assoc/raccordable_plumbingElement.iuml
 !include ./include/assoc/raccordable_valve.iuml
 !include ./include/assoc/raccordable_evacuation.iuml
-!include ./include/assoc/raccordable_hose.iuml
 !include ./include/assoc/connection_fitting.iuml
 !include ./include/assoc/connection_hose.iuml
 
