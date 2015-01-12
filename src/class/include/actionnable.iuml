@@ -1,5 +1,4 @@
-abstract class Actionnable <<Actionnable>> {
-	
+package actionnable {
+	abstract class Actionnable  {	
+	}
 }
-
-Actionnable -- "1" Actionneur

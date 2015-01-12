@@ -25,12 +25,18 @@
 !include ./include/heater.iuml
 !include ./include/mixer.iuml
 !include ./include/heatExchanger.iuml
+!include ./include/heatingElement.iuml
 
 !include ./include/raccordable.iuml
 !include ./include/evacuation.iuml
 !include ./include/hose.iuml
 !include ./include/fitting.iuml
 !include ./include/connection.iuml
+
+!include ./include/actionnable.iuml
+!include ./include/actuator.iuml
+!include ./include/resistor.iuml
+!include ./include/controler.iuml
 
 !include ./include/assoc/note_baseObject.iuml
 !include ./include/assoc/note_user.iuml
@@ -58,6 +64,7 @@
 !include ./include/assoc/component_valve.iuml
 !include ./include/assoc/brewpotAddon_insulator.iuml
 !include ./include/assoc/brewpotAddon_mixer.iuml
+!include ./include/assoc/brewpotAddon_heatingElement.iuml
 !include ./include/assoc/hardware_component.iuml
 !include ./include/assoc/hardware_fitting.iuml
 !include ./include/assoc/hardware_brewpotAddon.iuml
@@ -78,5 +85,12 @@
 !include ./include/assoc/connection_fitting.iuml
 !include ./include/assoc/connection_hose.iuml
 
+!include ./include/assoc/actionnable_pump.iuml
+!include ./include/assoc/actionnable_mixer.iuml
+!include ./include/assoc/actionnable_electrovalve.iuml
+!include ./include/assoc/actionneur_controler.iuml
+!include ./include/assoc/actionnable_heatingElement.iuml
+!include ./include/assoc/actionnable_actuator.iuml
+!include ./include/assoc/actuator_resistor.iuml
 @enduml
 
