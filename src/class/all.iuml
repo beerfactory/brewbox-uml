@@ -38,6 +38,19 @@
 !include ./include/resistor.iuml
 !include ./include/controler.iuml
 
+!include ./include/collectable.iuml
+!include ./include/sensor.iuml
+!include ./include/sensorLocation.iuml
+!include ./include/assoc/hardware_sensor.iuml
+!include ./include/assoc/sensorLocation_sensor.iuml
+!include ./include/assoc/collectable_waterSupply.iuml
+!include ./include/assoc/collectable_powerSupply.iuml
+!include ./include/assoc/collectable_brewpot.iuml
+!include ./include/assoc/collectable_sensorLocation.iuml
+!include ./include/assoc/collectable_environment.iuml
+!include ./include/assoc/collectable_pump.iuml
+
+
 !include ./include/assoc/note_baseObject.iuml
 !include ./include/assoc/note_user.iuml
 !include ./include/assoc/baseObject_metadata.iuml
