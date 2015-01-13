@@ -2,7 +2,7 @@ package brewery {
 	class Valve  {
 	}
 
-	class ElectroValve <<Actionnable>> {
+	class ElectroValve {
 	}
 }
 
