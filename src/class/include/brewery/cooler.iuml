@@ -1,0 +1,4 @@
+class Cooler {
+    power : Long
+	nbPlaques : Integer
+}

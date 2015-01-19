@@ -1,0 +1,19 @@
+!include ./raccordable.iuml
+!include ./evacuation.iuml
+!include ../brewery/hose.iuml
+!include ../brewery/fitting.iuml
+!include ./connection.iuml
+
+!include ./assoc/raccordable_waterSupply.iuml
+!include ./assoc/raccordable_heatExchanger.iuml
+!include ./assoc/raccordable_shower.iuml
+!include ./assoc/raccordable_filter.iuml
+!include ./assoc/raccordable_manifold.iuml
+!include ./assoc/raccordable_pump.iuml
+!include ./assoc/raccordable_fitting.iuml
+!include ./assoc/raccordable_coil.iuml
+!include ./assoc/raccordable_plumbingElement.iuml
+!include ./assoc/raccordable_valve.iuml
+!include ./assoc/raccordable_evacuation.iuml
+!include ./assoc/connection_fitting.iuml
+!include ./assoc/connection_hose.iuml

@@ -1,5 +1,3 @@
-package interface {
-	class Peripheral {
-		addressOrPath : String
-	}
+class Peripheral {
+	addressOrPath : String
 }

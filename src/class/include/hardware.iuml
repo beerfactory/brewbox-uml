@@ -1,5 +1,0 @@
-package brewery {
-	abstract class Hardware {
-		+ installDate : Timestamp
-	}
-}

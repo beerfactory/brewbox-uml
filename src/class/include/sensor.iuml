@@ -1,27 +1,25 @@
-package collectable {
-	abstract class Sensor {
-	}
+abstract class Sensor {
+}
 
-	class Thermometer {
-	}
+class Thermometer {
+}
 
-	enum ThermometerType {
-	    THERMOCOUPLE
-	    THERMISTANCE
-	    PT100
-	}
+enum ThermometerType {
+    THERMOCOUPLE
+    THERMISTANCE
+    PT100
+}
 
-	class FlowMeter {
-	    
-	}
+class FlowMeter {
+    
+}
 
-	class Level {
-	    
-	}
+class Level {
+    
+}
 
-	class PHMeter {
-	    
-	}
+class PHMeter {
+    
 }
 
 Sensor <|-- Thermometer

@@ -1,6 +1,5 @@
 class Resistor {
-    length : Float
-    powerDensity : Float
-    voltage : Float
+    + length : Float
+    + powerDensity : Float
+    + voltage : Float
 }
-

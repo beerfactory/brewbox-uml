@@ -1,7 +1,5 @@
-package interface {
-	class Sample {
-		date : Timestamp
-		rawData : Blob
-		data : String
-	}	
+class Sample {
+	date : Timestamp
+	rawData : Blob
+	data : String
 }

@@ -1,4 +1,2 @@
-package actionnable {
-	abstract class Actionnable  {	
-	}
+abstract class Actionnable  {	
 }

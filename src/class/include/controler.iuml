@@ -1,5 +1,2 @@
-package actionnable {
-	abstract class Controler {
-		
-	}
+abstract class Controler {	
 }

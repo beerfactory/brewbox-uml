@@ -1,0 +1,7 @@
+!include ./baseObject.iuml
+!include ./metadata.iuml
+!include ./note.iuml
+!include ./user.iuml
+!include ./assoc/note_baseObject.iuml
+!include ./assoc/note_user.iuml
+!include ./assoc/baseObject_metadata.iuml

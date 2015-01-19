@@ -1,0 +1,4 @@
+enum PowerType {
+    SINGLE_PHASE
+    THREE_PHASE
+}

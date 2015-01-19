@@ -1,6 +1,0 @@
-package brewery {
-	class Evacuation {
-	}
-}
-
-BaseObject <|-- Evacuation

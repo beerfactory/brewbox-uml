@@ -1,0 +1,17 @@
+class Fitting {
+    diameter : Float
+    type : String
+}
+
+enum FittingGender {
+    MALE
+    FEMALE
+}
+
+enum LiquidDirection {
+	INPUT
+	OUTPUT
+}
+
+Fitting -- "1" FittingGender : gender
+Fitting -- "1" LiquidDirection : direction

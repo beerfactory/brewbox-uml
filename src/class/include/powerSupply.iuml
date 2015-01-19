@@ -1,9 +1,0 @@
-package brewery {
-	class PowerSupply {
-		power : PowerType
-		RMSVoltage : Short
-		maxCurrent : Short
-		kwhPrice : Float
-	}
-}
-BaseObject <|-- PowerSupply

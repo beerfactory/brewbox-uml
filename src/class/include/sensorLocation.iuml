@@ -1,5 +1,3 @@
-package collectable {
-	class SensorLocation {
-		locationDescription : String
-	}	
+class SensorLocation {
+	locationDescription : String
 }

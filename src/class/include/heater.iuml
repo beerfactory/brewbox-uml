@@ -1,5 +1,0 @@
-package brewery {
-	class Heater {
-	    power : Short
-	}
-}

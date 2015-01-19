@@ -1,6 +1,0 @@
-package base {
-	class MetaData {
-		key : String
-		value : String
-	}	
-}

@@ -1,24 +1,22 @@
-package interface {
-	abstract class Sampler {
-		interval : Short
-	}
-
-	class CANSampler {
-
-	}	
-
-	class I2CSampler {
-	
-	}	
-
-	class 1WSampler {
-	
-	}	
-
-	class GPIOSampler {
-	
-	}	
+abstract class Sampler {
+	interval : Short
 }
+
+class CANSampler {
+
+}	
+
+class I2CSampler {
+
+}	
+
+class 1WSampler {
+
+}	
+
+class GPIOSampler {
+
+}	
 
 Sampler <|-- CANSampler
 Sampler <|-- I2CSampler

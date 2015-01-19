@@ -1,118 +1,54 @@
 @startuml
-!include ./include/baseObject.iuml
-!include ./include/metadata.iuml
-!include ./include/note.iuml
-!include ./include/user.iuml
-!include ./include/brewery.iuml
-!include ./include/brewer.iuml
-!include ./include/equipment.iuml
-!include ./include/waterSupply.iuml
-!include ./include/powerSupply.iuml
-!include ./include/powerType.iuml
-!include ./include/brewpotAddon.iuml
-!include ./include/pump.iuml
-!include ./include/brewpot.iuml
-!include ./include/manifold.iuml
-!include ./include/plumbingElement.iuml
-!include ./include/environment.iuml
-!include ./include/component.iuml
-!include ./include/cooler.iuml
-!include ./include/hardware.iuml
-!include ./include/insulator.iuml
-!include ./include/filter.iuml
-!include ./include/coil.iuml
-!include ./include/shower.iuml
-!include ./include/valve.iuml
-!include ./include/heater.iuml
-!include ./include/mixer.iuml
-!include ./include/heatExchanger.iuml
-!include ./include/heatingElement.iuml
 
-!include ./include/raccordable.iuml
-!include ./include/evacuation.iuml
-!include ./include/hose.iuml
-!include ./include/fitting.iuml
-!include ./include/connection.iuml
+package base {
+	!include ./include/base/package.iuml
+}
 
-!include ./include/actionnable.iuml
-!include ./include/actuator.iuml
-!include ./include/resistor.iuml
-!include ./include/controler.iuml
+package brewery {
+	!include ./include/brewery/package.iuml
+}
 
-!include ./include/collectable.iuml
-!include ./include/sensor.iuml
-!include ./include/sensorLocation.iuml
-!include ./include/assoc/hardware_sensor.iuml
-!include ./include/assoc/sensorLocation_sensor.iuml
-!include ./include/assoc/collectable_waterSupply.iuml
-!include ./include/assoc/collectable_powerSupply.iuml
-!include ./include/assoc/collectable_brewpot.iuml
-!include ./include/assoc/collectable_sensorLocation.iuml
-!include ./include/assoc/collectable_environment.iuml
-!include ./include/assoc/collectable_pump.iuml
+package raccordable {
+	!include ./include/raccordable/package.iuml
+}
 
+package actionnable {
+	!include ./include/actionnable.iuml
+	!include ./include/actuator.iuml
+	!include ./include/resistor.iuml
+	!include ./include/controler.iuml
 
-!include ./include/assoc/note_baseObject.iuml
-!include ./include/assoc/note_user.iuml
-!include ./include/assoc/baseObject_metadata.iuml
-!include ./include/assoc/user_brewer.iuml
-!include ./include/assoc/baseObject_hardware.iuml
-!include ./include/assoc/brewery_brewer.iuml
-!include ./include/assoc/brewery_equipment.iuml
-!include ./include/assoc/equipment_waterSupply.iuml
-!include ./include/assoc/equipment_powerSupply.iuml
-!include ./include/assoc/equipment_environment.iuml
-!include ./include/assoc/equipment_component.iuml
-!include ./include/assoc/equipment_evacuation.iuml
-!include ./include/assoc/component_pump.iuml
-!include ./include/assoc/component_brewpot.iuml
-!include ./include/assoc/component_manifold.iuml
-!include ./include/assoc/component_plumbingElement.iuml
-!include ./include/assoc/component_heatExchanger.iuml
-!include ./include/assoc/hardware_heater.iuml
-!include ./include/assoc/hardware_cooler.iuml
-!include ./include/assoc/hardware_hose.iuml
-!include ./include/assoc/brewpotAddon_coil.iuml
-!include ./include/assoc/component_filter.iuml
-!include ./include/assoc/brewpotAddon_shower.iuml
-!include ./include/assoc/component_valve.iuml
-!include ./include/assoc/brewpotAddon_insulator.iuml
-!include ./include/assoc/brewpotAddon_mixer.iuml
-!include ./include/assoc/brewpotAddon_heatingElement.iuml
-!include ./include/assoc/hardware_component.iuml
-!include ./include/assoc/hardware_fitting.iuml
-!include ./include/assoc/hardware_brewpotAddon.iuml
-!include ./include/assoc/brewpot_brewpotAddon.iuml
-!include ./include/assoc/environment_cooler_heater.iuml
+	!include ./include/assoc/actionnable_pump.iuml
+	!include ./include/assoc/actionnable_mixer.iuml
+	!include ./include/assoc/actionnable_electrovalve.iuml
+	!include ./include/assoc/actionneur_controler.iuml
+	!include ./include/assoc/actionnable_heatingElement.iuml
+	!include ./include/assoc/actionnable_actuator.iuml
+	!include ./include/assoc/actuator_resistor.iuml
+}
 
-!include ./include/assoc/raccordable_waterSupply.iuml
-!include ./include/assoc/raccordable_heatExchanger.iuml
-!include ./include/assoc/raccordable_shower.iuml
-!include ./include/assoc/raccordable_filter.iuml
-!include ./include/assoc/raccordable_manifold.iuml
-!include ./include/assoc/raccordable_pump.iuml
-!include ./include/assoc/raccordable_fitting.iuml
-!include ./include/assoc/raccordable_coil.iuml
-!include ./include/assoc/raccordable_plumbingElement.iuml
-!include ./include/assoc/raccordable_valve.iuml
-!include ./include/assoc/raccordable_evacuation.iuml
-!include ./include/assoc/connection_fitting.iuml
-!include ./include/assoc/connection_hose.iuml
+package collectable {
+	!include ./include/collectable.iuml
+	!include ./include/sensor.iuml
+	!include ./include/sensorLocation.iuml
+	!include ./include/assoc/hardware_sensor.iuml
+	!include ./include/assoc/sensorLocation_sensor.iuml
+	!include ./include/assoc/collectable_waterSupply.iuml
+	!include ./include/assoc/collectable_powerSupply.iuml
+	!include ./include/assoc/collectable_brewpot.iuml
+	!include ./include/assoc/collectable_sensorLocation.iuml
+	!include ./include/assoc/collectable_environment.iuml
+	!include ./include/assoc/collectable_pump.iuml
+}
 
-!include ./include/assoc/actionnable_pump.iuml
-!include ./include/assoc/actionnable_mixer.iuml
-!include ./include/assoc/actionnable_electrovalve.iuml
-!include ./include/assoc/actionneur_controler.iuml
-!include ./include/assoc/actionnable_heatingElement.iuml
-!include ./include/assoc/actionnable_actuator.iuml
-!include ./include/assoc/actuator_resistor.iuml
-
-!include ./include/board.iuml
-!include ./include/sample.iuml
-!include ./include/sampler.iuml
-!include ./include/peripheral.iuml
-!include ./include/serie.iuml
-!include ./include/assoc/sensor_sampler.iuml
+package interface {
+	!include ./include/board.iuml
+	!include ./include/sample.iuml
+	!include ./include/sampler.iuml
+	!include ./include/peripheral.iuml
+	!include ./include/serie.iuml
+	!include ./include/assoc/sensor_sampler.iuml
+}
 
 @enduml
 

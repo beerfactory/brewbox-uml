@@ -1,7 +1,5 @@
-package interface {
-	class Board {
-		version : String	
-	}
+class Board {
+	version : String	
 }
 
 Hardware <|-- Board

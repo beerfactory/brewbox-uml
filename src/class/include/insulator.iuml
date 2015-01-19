@@ -1,7 +1,0 @@
-package brewery {
-	class Insulator {
-	    matter : String
-	    thickness : Float
-	    thermelResistance : Float
-	}
-}

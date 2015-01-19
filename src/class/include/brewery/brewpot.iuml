@@ -1,0 +1,8 @@
+class Brewpot {
+    maxVolume : Short
+    effVolume : Short
+    height : Short
+    diameter : Short
+    emptyWeight : Short
+    matter : String
+}

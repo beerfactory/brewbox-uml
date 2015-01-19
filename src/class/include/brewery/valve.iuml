@@ -1,0 +1,7 @@
+class Valve  {
+}
+
+class ElectroValve {
+}
+
+Valve <|-- ElectroValve

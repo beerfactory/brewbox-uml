@@ -1,5 +1,2 @@
-package collectable {
-	abstract class Collectable {
-		
-	}	
+abstract class Collectable {
 }

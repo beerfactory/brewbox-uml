@@ -1,0 +1,8 @@
+class Coil {
+    externalDiameter : Float
+    internalDiameter : Float
+    length : Short
+    matter : String
+    coilDiameter : Float
+    step : Float
+}

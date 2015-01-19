@@ -1,5 +1,3 @@
-package actionnable {
-	abstract class Actuator {
-		
-	}
+abstract class Actuator {
+	
 }

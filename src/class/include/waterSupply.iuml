@@ -1,9 +1,0 @@
-package brewery {
-	class WaterSupply {
-		unitPrice : Float
-
-	}
-}
-
-BaseObject <|-- WaterSupply
-
