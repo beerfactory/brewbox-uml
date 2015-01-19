@@ -1,8 +1,0 @@
-abstract class Echantillonneur {
-	intervalle : EntierCourt
-}
-
-Echantillonneur <|-- EchantillonneurCAN
-Echantillonneur <|-- EchantillonneurI2C
-Echantillonneur <|-- Echantillonneur1W
-Echantillonneur <|-- EchantillonneurGPIO

@@ -106,5 +106,13 @@
 !include ./include/assoc/actionnable_heatingElement.iuml
 !include ./include/assoc/actionnable_actuator.iuml
 !include ./include/assoc/actuator_resistor.iuml
+
+!include ./include/board.iuml
+!include ./include/sample.iuml
+!include ./include/sampler.iuml
+!include ./include/peripheral.iuml
+!include ./include/serie.iuml
+!include ./include/assoc/sensor_sampler.iuml
+
 @enduml
 

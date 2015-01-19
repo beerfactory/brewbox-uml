@@ -1,3 +1,5 @@
-class Serie {
-	nom : Chaine
+package interface {
+	class Serie {
+		name : String
+	}	
 }

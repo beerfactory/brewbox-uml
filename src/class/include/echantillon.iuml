@@ -1,5 +1,0 @@
-class Echantillon {
-	horodatage : Horodatage
-	donneeBrute : Blob
-	donnee : String
-}
