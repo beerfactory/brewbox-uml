@@ -6,7 +6,7 @@
 !include ./assoc/actionnable_pump.iuml
 !include ./assoc/actionnable_mixer.iuml
 !include ./assoc/actionnable_electrovalve.iuml
-!include ./assoc/actionneur_controler.iuml
+!include ./assoc/actuator_controler.iuml
 !include ./assoc/actionnable_heatingElement.iuml
 !include ./assoc/actionnable_actuator.iuml
 !include ./assoc/actuator_resistor.iuml
