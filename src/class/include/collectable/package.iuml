@@ -1,0 +1,12 @@
+!include ./collectable.iuml
+!include ./sensor.iuml
+!include ./sensorLocation.iuml
+
+!include ./assoc/hardware_sensor.iuml
+!include ./assoc/sensorLocation_sensor.iuml
+!include ./assoc/collectable_waterSupply.iuml
+!include ./assoc/collectable_powerSupply.iuml
+!include ./assoc/collectable_brewpot.iuml
+!include ./assoc/collectable_sensorLocation.iuml
+!include ./assoc/collectable_environment.iuml
+!include ./assoc/collectable_pump.iuml

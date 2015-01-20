@@ -13,41 +13,15 @@ package raccordable {
 }
 
 package actionnable {
-	!include ./include/actionnable.iuml
-	!include ./include/actuator.iuml
-	!include ./include/resistor.iuml
-	!include ./include/controler.iuml
-
-	!include ./include/assoc/actionnable_pump.iuml
-	!include ./include/assoc/actionnable_mixer.iuml
-	!include ./include/assoc/actionnable_electrovalve.iuml
-	!include ./include/assoc/actionneur_controler.iuml
-	!include ./include/assoc/actionnable_heatingElement.iuml
-	!include ./include/assoc/actionnable_actuator.iuml
-	!include ./include/assoc/actuator_resistor.iuml
+	!include ./include/actionnable/package.iuml
 }
 
 package collectable {
-	!include ./include/collectable.iuml
-	!include ./include/sensor.iuml
-	!include ./include/sensorLocation.iuml
-	!include ./include/assoc/hardware_sensor.iuml
-	!include ./include/assoc/sensorLocation_sensor.iuml
-	!include ./include/assoc/collectable_waterSupply.iuml
-	!include ./include/assoc/collectable_powerSupply.iuml
-	!include ./include/assoc/collectable_brewpot.iuml
-	!include ./include/assoc/collectable_sensorLocation.iuml
-	!include ./include/assoc/collectable_environment.iuml
-	!include ./include/assoc/collectable_pump.iuml
+	!include ./include/collectable/package.iuml
 }
 
 package interface {
-	!include ./include/board.iuml
-	!include ./include/sample.iuml
-	!include ./include/sampler.iuml
-	!include ./include/peripheral.iuml
-	!include ./include/serie.iuml
-	!include ./include/assoc/sensor_sampler.iuml
+	!include ./include/interface/package.iuml
 }
 
 @enduml

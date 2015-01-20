@@ -1,0 +1,7 @@
+!include ./board.iuml
+!include ./sample.iuml
+!include ./sampler.iuml
+!include ./peripheral.iuml
+!include ./serie.iuml
+
+!include ./assoc/sensor_sampler.iuml
