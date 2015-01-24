@@ -1,7 +1,6 @@
 !include ./actionnable.iuml
 !include ./actuator.iuml
 !include ./resistor.iuml
-!include ./controler.iuml
 
 !include ./assoc/actionnable_pump.iuml
 !include ./assoc/actionnable_mixer.iuml

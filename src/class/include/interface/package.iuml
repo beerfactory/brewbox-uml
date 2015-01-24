@@ -3,5 +3,11 @@
 !include ./sampler.iuml
 !include ./peripheral.iuml
 !include ./serie.iuml
+!include ./controler.iuml
 
 !include ./assoc/sensor_sampler.iuml
+!include ./assoc/board_peripheral.iuml
+!include ./assoc/controler_peripheral.iuml
+!include ./assoc/sampler_serie.iuml
+!include ./assoc/peripheral_sampler.iuml
+!include ./assoc/serie_sample.iuml
